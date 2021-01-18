@@ -1,0 +1,193 @@
+    body {
+        background-image: url("https://media.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif");
+        background-size: cover;
+        /* background-repeat: repeat-y;*/
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        font-family: 'Poppins',sans-serif;
+        overflow-x: hidden;
+    }
+    nav{
+        display: flex;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        background-color:#0275d8;
+        padding:5px;
+        height:8%;
+        background-size: cover;
+        vertical-align: baseline;
+    }
+    .brand_name{
+        text-decoration: none;
+        color:black;
+        font-size: 1.5em;
+        padding: 2px;
+         margin:2px 5px 0 2px;
+    }
+    .options a{
+        color: black;
+        text-decoration: none;
+        padding-top: 10px;
+         margin: 6px  4px 0 2px;
+    }
+    .options{
+     padding-top:8px;
+    }
+    .dropdown{
+        display: none;
+    }
+    #sss{
+        width:70%;
+        height:60%;
+        margin-top:15%;
+    }
+    #Contact_me{
+        color: white;
+        text-decoration: none;
+        background-color: #0275d8;
+        padding:2px;
+        margin:2px;
+        border:blue;
+    }
+    #Contact_me a{
+        text-decoration: none;
+        color:white;
+        padding:2px;
+        margin-top:5px;
+        margin-bottom: 10px;
+    }
+    video{
+        width:400px;
+        height:350px;
+    }
+    h3{
+        margin:2% 0 2% 0; text-shadow: 2px 2px rgb(99, 98, 96);
+        text-align: center;
+        
+    }
+     footer{
+         align-content: center;
+         background-color: #0275d8 ;
+         width:100%;
+         height:70px;
+     }
+
+     #about_div1,#about_div2{
+         display: inline-block;
+          width:50%;
+          height: 100%;
+          margin-left: 10%;
+     }
+     input{
+         width:100%;
+     }
+     textarea{
+        width:100%;
+     }
+    @media (max-width: 768px) {
+
+        .options{
+            display:none;
+        }
+    
+     .dropdown {
+            display:visible;
+            position:fixed;
+            display: inline-block;
+            margin-left: 75%;
+            margin-top: 2%;
+            border:1px solid black;
+            border-radius: 2px;
+            padding: 2px 3px;
+          }
+          .dropbtn {
+            background-color:  #0275d8 ;
+            
+            border: none;
+            
+            border-radius: 2px;
+          
+          }
+         /* 
+         .dropdown {
+            position: relative;
+            border: 1px solid black;
+            display: inline-block;
+            padding-bottom: 2px;
+
+          
+          }
+          */
+          h3{
+              margin-top: 10%;
+          }
+          .dropdown-content {
+            display: none;
+            position: fixed;
+            
+            background-color: #0275d8 ;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            top:0;
+            left:0;
+
+            width:100%;
+            margin-top: 15%;
+          }
+          
+          .dropdown-content a {
+              display: none;
+            color: black;
+            padding: 10px 10px;
+            text-decoration: none;
+            display: block;
+            margin-top: 5%;
+          }
+          
+          .dropdown-content a:hover {text-shadow: black;}
+          
+          .dropdown:hover .dropdown-content {display: block;
+        }
+          
+          
+          #about_div2{
+              width:80%;
+          }
+          #project td{
+              width:50%;
+            
+          }
+          
+          #sss{
+            width:200px;
+            height:440px;
+            margin-top:40%;
+        }
+        video{
+            width:100px;
+            height:180px;
+        }
+        footer{
+            align-content: center;
+            background-color: #0275d8 ;
+            width:100%;
+            height:70px;
+        }
+        input{
+            width:50%;
+        }
+        textarea{
+            width:50%;
+        }
+         .col1{
+             width:30%;
+         }
+         .col2{
+             width:60%;
+         }
+          
+
+    }
