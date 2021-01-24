@@ -1,0 +1,192 @@
+body{
+    font-family: "poppins";    
+}
+#sss{
+    width:400px;
+    height:600px;
+    margin-right:30%;
+}
+#intro-div{
+    margin: 50% 1% 0 0;
+}
+#Home_flex{
+    flex-shrink: 1;
+    justify-content: space-evenly;
+}
+#about_div2{
+    width:600px;
+}
+#skills_div2{
+    width:600px;
+
+    padding-bottom:  150px ;
+}
+#skills_2{
+    width:600px;
+}
+#project_div1,#project_div2
+{
+    height: 40%;
+}
+#project1,#project2,#project3,#project4{
+    width:50%;
+    height:200px;
+}
+#awards,#certification{
+    width: 400px;
+    height:510px;
+
+}
+#awards_img,#certification_img{
+    width: 400px;
+    height: 200px;
+ 
+ }
+ #contact_details{
+  width:25%;
+ font-size: 0.92em;
+  margin-right: 0;
+ }
+ #name_icon,#mobile_icon,#email_icon,#address_icon{
+    width:15px;
+    height: 20px;
+    }
+ form{
+     width:30%;
+     height:420px;
+     font-size: small;
+ }
+footer{
+    height:70px;
+}
+:root{
+    --body-font:"Poppins",sans-serif;
+    --big--font-size:3.5rem;
+    --h2-font-size:2rem;
+    --normal-font-size:1rem;
+}
+table,tr,th,td{
+    border: 2px solid #0275d8;
+   /* // width:max-content; */
+     /* min-width: 135px;     */
+    height: max-content;
+
+}
+table{
+    min-width:60%;
+}
+/* tr{
+    border: 2px solid #0275d8;
+    width:max-content;
+    min-width: 135px;   
+} */
+#table_flex{
+    width:60%;
+    min-height:420px;
+    height: max-content;
+    align-items: center;
+    justify-content: space-between; 
+  flex-wrap: wrap;
+  /* flex-shrink: 4; */
+}
+table{
+    width:100%;
+  /* flex-shrink: 4; */
+  flex-wrap: wrap;
+}
+thead,tbody{
+    width:100%;
+    flex-wrap: wrap;
+    
+}
+.r{
+    /* width: 100px;
+    height: 100px;
+    background-color: #9D5B75; */
+    width: 100%;
+    transition: opacity 4000ms;
+    will-change: opacity;
+}
+
+.faded-out {
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    #sss{
+         width: 270px;
+         height: 360px;
+         margin: 5% 0 5% 10%;
+         padding-right: 0;
+        }
+    #intro-div,#home_contact{
+        margin-top: 5px;
+        margin-left: 10% ;
+    }
+    #about_div2{
+        width:320px;
+    }
+    #skills_div2,#skills_2{
+        width:320px;
+        padding-bottom: 10px;
+    }
+    #project_div1,#project_div2
+   { width:98%;
+    height: 80%; 
+   }
+#Projects{
+    height: auto;
+    width:90%;
+    flex-wrap: wrap;
+    break-after:column;
+    
+}
+#project1,#project2,#project3,#project4{
+    width:100%;
+    height:270px;
+}
+#awards_img,#certification_img{
+   width: 320px;
+   height: 200px;
+}
+#awards,#certification{
+    width: 320px;
+    height: 550px;
+}
+#contact_details{
+    width:100%;
+   }
+   #name_icon,#mobile_icon,#email_icon,#address_icon{
+    width:30px;
+    height: 30px;
+}
+form{
+       width:100%;    
+}
+table,tr,th,td{
+    border: 2px solid #0275d8;
+    width:max-content;
+    min-width: 80px;   
+}
+#table_flex{
+    width:100%;
+    height:420px;
+    align-items: center;
+    justify-content: space-between;     
+}
+table{
+    width:100%;
+}
+footer{
+    height:70px;
+    margin-top: 150px;    
+}
+:root{
+    --body-font:"Poppins",sans-serif;
+    --big--font-size:2rem;
+    --h2-font-size:1.25rem;
+    --normal-font-size:0.938rem;
+}
+
+
+}
